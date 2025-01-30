@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: code coverage 80
         uses: actions/checkout@v4
       
       - name: Analyse with SonarCloud
